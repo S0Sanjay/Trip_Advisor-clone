@@ -1,0 +1,183 @@
+body {
+  font-family: "Gabarito", Roboto;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #002B11;
+}
+
+
+.nrml_font{
+    font-size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#btn{
+    padding: 10px 15px;
+    color: white;
+    background-color:#002B11;
+    border-radius: 25px;
+    border: none;
+    font-family: "Gabarito", Roboto;
+    font-weight:500;
+    font-size: 16px;
+}
+
+#main-container{
+    padding: 0px 150px;
+}
+
+#main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    padding: 10px;
+    left: 170px;
+    display: inline;
+    height: 27px;
+    
+}
+
+.mid {
+    gap: 10px;
+    display: flex;
+}
+.mid h4{
+    padding: 10px;
+    font-weight:500 ;
+}
+.login {
+    gap: 10px;
+    display: flex;
+    height: 30px;
+
+}
+.hov {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+.hov:hover{
+    background-color: grey;
+    transition: 0.2s ease-in-out;
+}
+.sign{
+    padding: 10px;
+    color: white;
+    background-color:#002B11;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .login .lang .separator {
+  color: #888;
+}
+
+
+
+.where h1{
+    text-align: center;   
+}
+.where .categories{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.where .categories i{
+    padding: 5px;
+}
+
+.where .categories span:hover{
+    text-decoration: underline;
+}
+
+.search{
+    background-color: #F7F7F7;
+    width: 700px;
+    border: solid  #DFE1DF 2px;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    height: 35px;
+    box-shadow: 0px 2px 5px #DFE1DF;
+}
+.search input{
+    color: #757575;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.search button{
+    background-color: #00D352;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid #00AB42 1px;
+    color: #002B11;
+    font-family: "Gabarito", Roboto;
+}
+.book_now{
+    width: 100%;
+    height: 400px;
+    background-color: #00EB5B;
+    border-radius: 10px;
+
+}
+
+.book_now .left{
+    width: 50%;
+}
+.book_now .left img{
+    padding: 16px;
+    border-radius: 30px;
+    width: 100%;
+    height: 370px;
+}
+.book_now .left div{
+    background-color :#00EB5B;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    border:solid 2px #002B11;
+}
+
+.book_now .right h1{
+    width:50%;
+}
+.book_now .right p{
+    padding: 10px;
+}
+.book_now .right i{
+    width: 10px;
+}
+
+.book_now .right i:hover{
+    border-radius: solid black 3px;
+}
+/* button on click
+<i class="fa-solid fa-play"></i> */
+
