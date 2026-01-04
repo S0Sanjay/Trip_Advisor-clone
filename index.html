@@ -26,21 +26,27 @@
   <body>
     <div id="main-container">
       <div id="main-content">
+        <div class="ai">
+          <i class="fa-solid fa-robot"></i>
+          Ask Ollie
+        </div>
         <div class="header">
           <div class="icon"><img src="img/wordmark.svg" /></div>
           <div class="mid">
-            <h4>Discover</h4>
-            <h4>Review</h4>
-            <h4>More</h4>
+            <h4 class="hover-overlay">Discover</h4>
+            <h4 class="hover-overlay">Review</h4>
+            <h4 class="hover-overlay">More</h4>
           </div>
           <div class="login">
-            <div class="hov">
+            <div class="hov2" id="hov" style="display: flex">
               <i class="fa-solid fa-globe"></i>
               <span class="separator">|</span>
               <p>INR</p>
             </div>
             <div class="header_container">
-              <button class="sign" id="btn"><span>Sign in</span></button>
+              <button class="sign hover-overlay" id="btn">
+                <span>Sign in</span>
+              </button>
             </div>
           </div>
         </div>
@@ -58,7 +64,9 @@
               type="text"
               placeholder="Places to go,things to do,hotels.."
             />
-            <button>Search</button>
+            <button class="hover-overlay" style="padding-right: 20px">
+              Search
+            </button>
           </div>
         </div>
         <div class="book_now">
@@ -72,7 +80,7 @@
             <p class="nrml_font">
               Browse 400,000+ experiences and book with us.
             </p>
-            <div><button id="btn">Book now</button></div>
+            <div><button class="hover-overlay" id="btn">Book now</button></div>
           </div>
           <i class="fa-regular fa-circle-pause"></i>
         </div>
@@ -80,22 +88,22 @@
           <h3>Find things to do by interest</h3>
           <p>Whatever you're into, we've got it</p>
           <div class="container">
-            <div class="img-box">
+            <div class="img-box hover-overlay">
               <img src="img/outdoors.jpg" />
               <div class="overlay"></div>
               <div class="txt">Outdoors</div>
             </div>
-            <div class="img-box">
+            <div class="img-box hover-overlay">
               <img src="img/food.jpg" />
               <div class="overlay"></div>
               <div class="txt">Food</div>
             </div>
-            <div class="img-box">
+            <div class="img-box hover-overlay">
               <img src="img/culture.jpg" />
               <div class="overlay"></div>
               <div class="txt">Culture</div>
             </div>
-            <div class="img-box">
+            <div class="img-box hover-overlay">
               <img src="img/water.jpg" />
               <div class="overlay"></div>
               <div class="txt">Water</div>
@@ -107,7 +115,8 @@
           <p>Can’t-miss picks near you</p>
           <div class="exp_container">
             <div class="img-exp">
-              <img src="img/exp1.jpg" />
+              <div class="hover-overlay"><img src="img/exp1.jpg" /></div>
+
               <div class="like"><i class="fa-regular fa-heart"></i></div>
               <p>Mahabalipuram tour by Tourism Ministry approved company</p>
               <span
@@ -119,7 +128,8 @@
               <n>from ₹9,234 per adult</n>
             </div>
             <div class="img-exp">
-              <img src="img/exp2.jpg" />
+              <div class="hover-overlay"><img src="img/exp2.jpg" /></div>
+
               <div class="like"><i class="fa-regular fa-heart"></i></div>
               <p>
                 Total Chennai city tour in Private car with guide &amp; lunch by
@@ -134,7 +144,8 @@
               <n>from ₹9,234 per adult</n>
             </div>
             <div class="img-exp">
-              <img src="img/exp3.jpg" />
+              <div class="hover-overlay"><img src="img/exp3.jpg" /></div>
+
               <div class="like"><i class="fa-regular fa-heart"></i></div>
               <p>
                 Total Chennai city tour in Private car with guide &amp; lunch by
@@ -149,7 +160,8 @@
               <n>from ₹9,234 per adult</n>
             </div>
             <div class="img-exp">
-              <img src="img/exp4.jpg" />
+              <div class="hover-overlay"><img src="img/exp4.jpg" /></div>
+
               <div class="like"><i class="fa-regular fa-heart"></i></div>
               <p>
                 British Architecture Walk, an immersive walking tour in Chennai
@@ -178,30 +190,285 @@
               and the Tripadvisor Foundation will match it, up to $150,000 USD
               collectively. Terms apply.
             </div>
-            <div><button class="but" id="btn">Donate now</button></div>
+            <div><button class="but hover-overlay" id="btn">Donate now</button></div>
           </div>
         </div>
         <div class="saudi">
           <div class="img">
             <img src="img/saudi.jpg" alt="" />
           </div>
-          <div class="content">                                   
-              <div class="ad"><p>In partnership with Visit Saudi</p></div>
-              <div class="heading">
-                Go far beyond: Discover more magical moments in Saudi
-              </div>
-              <div class="des">
-                Sleep in desert splendor, soar high across jaw-dropping UNESCO
-                sites, snorkel through untouched waters, and savor authentic
-                flavors in one-of-a-kind settings. From Riyadh to AlUla valley
-                and the
-              </div>
+          <div class="content">
+            <span class="ad">In partnership with Visit Saudi</span>
+            <div class="heading">
+              Go far beyond: Discover more magical moments in Saudi
+            </div>
+            <div class="des">
+              Sleep in desert splendor, soar high across jaw-dropping UNESCO
+              sites, snorkel through untouched waters, and savor authentic
+              flavors in one-of-a-kind settings. From Riyadh to AlUla valley and
+              the
+            </div>
           </div>
           <div class="edge">
-            <div class="view">view now</div>
+            <div class="view hover-overlay">view now</div>
+          </div>
+        </div>
+        <div class="explore">
+          <h3>Surf's up</h3>
+          <p>Learn to surf at some of the best spots</p>
+          <div class="exp_container">
+            <div class="img-exp"><div class="hover-overlay"><img src="img/surf1.jpg" /></div>
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="place">Oahu</div>
+              <p>Open Group Surfing Lesson in Waikiki, Hawaii</p>
+              <span
+                >5.0 <i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i> (317)</span
+              >
+              <n>from ₹9,234 per adult</n>
+            </div>
+            <div class="img-exp"><div class="hover-overlay"><img src="img/surf2.jpg" /></div>
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="place">Santa Teresa</div>
+              <p>Surf Lessons, Santa Teresa North, Costa Rica</p>
+              <span
+                >5.0 <i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i> (111)</span
+              >
+              <n>from ₹6,923 per adult</n>
+            </div>
+            <div class="img-exp"><div class="hover-overlay"><img src="img/surf3.jpg" /></div>
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="place">Puerto Rico</div>
+              <p>Luquillo, Puerto Rico: Beginners Surf Lesson</p>
+              <span
+                >4.9 <i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i> (220)</span
+              >
+              <n>from ₹7,204 per adult</n>
+            </div>
+            <div class="img-exp"><div class="hover-overlay"><img src="img/surf4.jpg" /></div>
+              
+              <div class="like"><i class="fa-regular fa-heart"></i></div>
+              <div class="place">Cancum</div>
+              <p>Learn to Surf in 1 Easy Lesson in Cancún</p>
+              <span
+                >5.0 <i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i
+                ><i class="fa-solid fa-circle"></i> (50)</span
+              >
+              <n>from ₹8,285 per adult</n>
+            </div>
+          </div>
+        </div>
+        <div class="find_things">
+          <h3>Iconic places you need to see</h3>
+          <div class="container">
+            <div class="img-box hover-overlay">
+              <img src="img/rome.jpg" />
+              <div class="overlay"></div>
+              <div class="txt">Rone,Italy</div>
+            </div>
+            <div class="img-box hover-overlay">
+              <img src="img/paris.jpg" />
+              <div class="overlay"></div>
+              <div class="txt">Paris, France</div>
+            </div>
+            <div class="img-box hover-overlay">
+              <img src="img/vegas.jpg" />
+              <div class="overlay"></div>
+              <div class="txt">Los Vegas, NV</div>
+            </div>
+            <div class="img-box hover-overlay">
+              <img src="img/iceland.jpg" />
+              <div class="overlay"></div>
+              <div class="txt">Reykjavik, Iceland</div>
+            </div>
+          </div>
+        </div>
+        <div class="donate2">
+          <div class="donate_left">
+            <div><img src="img/learn more.jpg" alt="" /></div>
+          </div>
+          <div class="donate_right">
+            <div class="logo" id="grey">
+              <img src="img/logo.svg" alt="" />Sponsored by <u>Wanderlab</u>
+            </div>
+            <div class="cap">Watch The Wanderer</div>
+            <div class="des">
+              Tripadvisor’s award-winning travel series, now streaming on Amazon
+              Prime Video
+            </div>
+            <div>
+              <button style="margin-top: 10px" class="but hover-overlay" id="btn">
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="green_poster">
+          <div class="con">
+            <img
+              src="https://static.tacdn.com/img2/brand_refresh_2025/travelers_choice/badges/2025/2025_Best_of_the_Best_Badge_Large.svg"
+              alt=""
+            />
+            <h2 class="head" style="font-size: 64px">
+              Travellers' Choice Awards Best of the Best
+            </h2>
+            <div class="des">
+              Among our top 1% of places, stays, eats, and experiences—decided
+              by you.
+            </div>
+            <div class="winner hover-overlay">See the winners</div>
+          </div>
+          <div class="image">
+            <img src="img/awd.png" alt="" />
+          </div>
+        </div>
+        <div class="find_things">
+          <h3 style="font-size: 28px">Browse themed collections</h3>
+          <div class="container">
+            <div style="width: 270px">
+              <div class="img-box hover-overlay">
+                <img src="img/winter.jpg" style="height: 340px" />
+                <div class="overlay "></div>
+                <div class="txt" style="font-size: 20px">
+                  Winter in Reykjavik
+                </div>
+              </div>
+              <p>See what makes this place so magical at this time of year</p>
+            </div>
+            <div style="width: 270px">
+              <div class="img-box hover-overlay">
+                <img src="img/buildings.jpg" style="height: 340px" />
+                <div class="overlay"></div>
+                <div class="txt" style="font-size: 20px">
+                  Buildings with a backstory
+                </div>
+              </div>
+              <p>Tours and landmarks for the architecture buff</p>
+            </div>
+
+            <div style="width: 270px">
+              <div class="img-box hover-overlay">
+                <img src="img/unmissable.jpg" style="height: 340px" />
+                <div class="overlay"></div>
+                <div class="txt" style="font-size: 20px">
+                  Unmissable day trips
+                </div>
+              </div>
+              <p>Unforgettable getaways just outside the city</p>
+            </div>
+
+            <div style="width: 270px">
+              <div class="img-box hover-overlay">
+                <img src="img/history.jpg" style="height: 340px" />
+                <div class="overlay"></div>
+                <div class="txt" style="font-size: 20px">
+                  For the history buff
+                </div>
+              </div>
+              <p>Must-see museums, royal landmarks, and more</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="margin">
+        <div class="footer">
+          <div class="one">
+            <div class="title">About Tripadvisor</div>
+            <ul>
+              <li>About Us</li>
+              <li>Press</li>
+              <li>Resources and Policies</li>
+              <li>Careers</li>
+              <li>Trust & Safety</li>
+              <li>Contact us</li>
+              <li>Tripadvisor Technology Blog</li>
+            </ul>
+          </div>
+          <div class="two">
+            <div class="title">Explore</div>
+            <ul>
+              <li>Write a review</li>
+              <li>Add a Place</li>
+              <li>Join</li>
+              <li>Travellers' Choice</li>
+              <li>Help Centre</li>
+              <li>Travel Stories</li>
+            </ul>
+          </div>
+          <div class="three">
+            <div class="title">Do Business With Us</div>
+            <ul>
+              <li>Business Advantage</li>
+              <li>Sponsored Placements</li>
+              <li>Advertise with Us</li>
+              <li>Access our Content API</li>
+            </ul>
+          </div>
+          <div class="four">
+            <div class="title">Get The App</div>
+            <ul>
+              <li>iPhone App</li>
+              <li>Android App</li>
+            </ul>
+          </div>
+          <div class="five">
+            <div class="title">Tripadvisor Sites</div>
+            <ul>
+              <li>Book tours and attraction tickets on <u>Viator</u></li>
+            </ul>
+          </div>
+          <div class="six">
+            <picture>
+              <img
+                style="width: 40px; height: 26px"
+                src="https://static.tacdn.com/img2/brand_refresh_2025/logos/logo.svg"
+              />
+            </picture>
+            <div>
+              <div style="font-size:12px padding bottom:3px ;">
+                © 2026 Tripadvisor LLC All rights reserved.
+              </div>
+              <div class="link_sec">
+                <span class="term">Terms of Use</span>
+                <span class="term">Privacy and Cookies Statement</span>
+                <span class="term">Cookie consent</span>
+                <span class="term">Site Map</span>
+                <span class="term">How the site works</span>
+                <span class="term">Contact us</span>
+                <span class="term">Accessibility Statement</span>
+              </div>
+            </div>
+          </div>
+          <div class="seven ">
+            <select >
+              <option >₹ INR</option>
+            </select>
+            <select>
+              <option>India</option>
+            </select>
+          </div>
+          <div class="eight">
+            <div class="fb"><i class="fa-brands fa-facebook"></i></div>
+            <div class="x"><i class="fa-brands fa-x-twitter"></i></div>
+            <div class="pin"><i class="fa-brands fa-pinterest"></i></div>
+            <div class="ins"><i class="fa-brands fa-instagram"></i></div>
+            <div class="yt"><i class="fa-brands fa-youtube"></i></div>
+            <div class="tt"><i class="fa-brands fa-tiktok"></i></div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
