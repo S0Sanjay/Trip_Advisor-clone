@@ -86,7 +86,7 @@ body {
     width: 100%;
 }
 
-.container{
+.header_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,37 +144,69 @@ body {
 }
 .book_now{
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: #00EB5B;
     border-radius: 10px;
+    position: relative;
 }
 
 .book_now .left{
     width: 50%;
+    height: 100%;
 }
 .book_now .left img{
     padding: 16px;
     border-radius: 30px;
-    width: 100%;
-    height: 370px;
+    width: 530px;
+    height: 415px;
 }
-.book_now .left div{
+.book_now .left .name{
     background-color :#00EB5B;
     display: inline-block;
     padding: 10px;
     border-radius: 20px;
     border:solid 2px #002B11;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.book_now .left .sep{
+    height: 407px;
+    width: 1px;
+    background-color: #002B11;
+    position: absolute;
+    right: 50%;
+    top:18px;
 }
 
+.book_now .right{
+    width: 472px;
+    height: 270px;
+    background-color: ;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+
+}
 .book_now .right h1{
-    width:50%;
+    width:90%;
+    font-size: 56px;
+    line-height: 80%;
+    letter-spacing: -3.5px;
+    word-spacing: 2px;
 }
-.book_now .right p{
-    padding: 10px;
-}
-.book_now .right i{
+.book_now i{
     width: 10px;
+    position: absolute;
+    bottom: 17px;
+    right: 28px;
 }
+
 
 .book_now .right i:hover{
     border-radius: solid black 3px;
@@ -182,7 +214,7 @@ body {
 /* button on click
 <i class="fa-solid fa-play"></i> */
 
-.find_things{
+.find_things {
     width: 100%;  
 }
 .find_things h3{
@@ -210,7 +242,6 @@ body {
   display: block;
 }
 
-
 .overlay {
   position: absolute;
   bottom: 0;
@@ -228,4 +259,152 @@ body {
   color: white;
   font-size: 30px;
   font-weight: bold;
+}
+
+.explore{
+    width: 100%; 
+     
+}
+.explore h3{
+    padding: 50px 0px 10px 0px;
+}
+.exp_container{
+    padding-top: 20px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore .img-exp{
+    position: relative;
+    height: 100%;
+    width: 272px;
+    position: relative;
+}
+.explore .img-exp img{
+    width: 272px;
+    height: 272px;
+    border-radius: 10px;
+}
+.img-exp span{
+    color: #38443A;
+    font-weight:lighter;
+    font-size: 14px;
+    padding: 3px 0px;
+
+}
+.img-exp p{
+    font-size: 18px;
+    padding: 3px 0px;
+
+}
+.img-exp i{     
+    color: #00852F;
+    padding: 1px;
+}
+.img-exp n{
+    font-size: 14px;
+    display: block;
+    padding: 3px 0px;
+}
+.img-exp .like i{
+    color: #002B11;
+    font-size: 15px;
+}
+.img-exp .like{
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 4px 5px 4px 5px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.donate{
+    height: 400px;
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 24px 0px;
+    display: flex;
+}
+
+.donate .left div{
+    position: relative;
+    left: 20px;
+}
+
+.donate .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 150px;
+}
+#grey{
+    color: #38443A;
+}
+.donate .right .logo img{
+    height: 15px;
+    width: 24px;
+    padding-right: 8px;
+}
+
+.donate .right .cap{
+    font-size: 32px;
+    padding: 20px 0px 10px 0px;
+}
+.donate .right .des {
+    padding-bottom:10px ;
+}
+.saudi{
+    padding-top: 20px;
+    height: 186px;
+    width: 100%;
+    background-color: red;
+    display: inline-flex;
+}
+.saudi img{
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+    transform: rotate(-4deg);
+}
+.saudi .img{
+    padding: 10px;
+    max-width: 200px;
+    display: inline-block;
+}
+
+.saudi .content{
+    display: flex;
+    flex-direction: column;
+    width: 743px;
+    justify-content: space-around;
+    height: 100%;
+    padding: 0px 20px;
+}
+.saudi .content .ad{
+    font-size: 12px;
+    background-color: #EAEAEA;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+.saudi .content .heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.saudi .edge{
+    display: inline-block;
+    width: 135px;
+}
+.saudi .view{
+    background-color: #ffff;
+    border-radius: 20px;
+    border: solid #002B11 1px;
+    padding: 10px;
+    text-align: center;
 }
