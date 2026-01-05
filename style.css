@@ -44,6 +44,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-self: flex-start;
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    background-color: white;
 }
 .header img{
     padding: 10px;
